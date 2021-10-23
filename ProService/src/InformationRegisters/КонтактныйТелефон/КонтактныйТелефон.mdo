@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21a2d437-7d3f-4236-875f-850271c8d2a6">
+  <producedTypes>
+    <selectionType typeId="76cbdded-58b6-456c-9ac6-65889c77210b" valueTypeId="7d570029-3657-4b5f-8a0e-d4f511447d4e"/>
+    <listType typeId="78d75359-c793-4037-abfb-17757bc2fd4e" valueTypeId="2f743ec2-bb65-459d-b539-53598d1afd45"/>
+    <managerType typeId="e12cf323-1bee-4c78-8ee8-09788c441610" valueTypeId="78af212e-1680-46f9-bca5-da9e0923abcd"/>
+    <recordSetType typeId="ed05c2fd-b38d-4256-a282-07e5d7b352a0" valueTypeId="62ec938c-e22b-43e4-b42c-784620931a0a"/>
+    <recordKeyType typeId="b5103d51-1a52-4d85-a437-964686048628" valueTypeId="2a6812ed-958b-4d68-996f-652f9fc0b330"/>
+    <recordType typeId="5f7944f9-f003-4b55-8626-74822347e0ad" valueTypeId="a313d7b6-51c1-4f8d-b11b-969ea52cdabb"/>
+    <recordManagerType typeId="d88ee569-c268-483b-a5a8-56116c88a3a7" valueTypeId="4f683ced-2c1d-48a5-8b1e-9508e6457731"/>
+  </producedTypes>
+  <name>КонтактныйТелефон</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактный телефон</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="377ed78d-00a8-4aca-b903-fd702d9821e5">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1d001d98-7e9b-47c1-b646-cf98ec015c1d">
+    <name>НомерТелефона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер телефона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

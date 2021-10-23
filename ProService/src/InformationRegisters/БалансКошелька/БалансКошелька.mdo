@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4950f540-2922-4941-9fb8-d9a68475a368">
+  <producedTypes>
+    <selectionType typeId="9121338f-e30d-4e7b-8bdc-0c4f4e267c6b" valueTypeId="3352201e-f8ff-4d73-a15a-6fa8d0ce41a2"/>
+    <listType typeId="e70f7c84-27ea-4ef8-a00c-6b1fb9eee6de" valueTypeId="d1077743-6db8-409d-8b76-10497d24c2db"/>
+    <managerType typeId="2899f928-da97-4bc6-8982-2c9857b54e3f" valueTypeId="d1be5e33-b452-41c6-9f44-a37fce7a5119"/>
+    <recordSetType typeId="f5aa6db8-b630-4cff-8d6e-afb5610d022f" valueTypeId="092389ca-9541-4103-ae82-257bfed2389e"/>
+    <recordKeyType typeId="6b9c7806-08f6-400c-aaca-15cd6fd39eb8" valueTypeId="8d54f6f5-10dc-401a-8c3c-16ae74ef62c1"/>
+    <recordType typeId="a59d9f7e-144c-4b15-8b09-2003dcb3bcbe" valueTypeId="5724e0d7-3b1d-4c26-b2b4-2a5856775553"/>
+    <recordManagerType typeId="9dc12df6-be3a-4c5e-bc58-b613e907565d" valueTypeId="7659b4d9-881c-4ab0-ba81-040023b5a612"/>
+  </producedTypes>
+  <name>БалансКошелька</name>
+  <synonym>
+    <key>ru</key>
+    <value>Баланс кошелька</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.БалансКошелька.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1d24717b-6003-48ec-9ac6-d3413181a406">
+    <name>Баланс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Баланс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7ef8ef08-e534-4b0e-9bc7-c2dfaa09c578">
+    <name>Кошелек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кошелек</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Криптокошельки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ba4eb291-8eef-48a1-a56c-3d3bd063edc8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

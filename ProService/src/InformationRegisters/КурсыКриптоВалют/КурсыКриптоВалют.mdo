@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="175f0d64-74e4-4ca7-8f2f-ca21d7546029">
+  <producedTypes>
+    <selectionType typeId="8947373f-9b6a-4d7f-8c1c-20dee0cc0e97" valueTypeId="09ddc50d-dde8-43e3-bb29-9df72ba2aaaf"/>
+    <listType typeId="17852eb9-cb1b-4d38-ab4d-244fb569aa4e" valueTypeId="808e7a22-b237-46ac-8686-93b207636620"/>
+    <managerType typeId="95a8ee59-fe3c-4e5d-a3e1-98c8f6f74529" valueTypeId="6ed95edd-c8d2-4245-8e1a-56a6a444b0fa"/>
+    <recordSetType typeId="7a4833b6-1651-49e1-8bc7-003578a1f298" valueTypeId="0fce1529-0d4f-4683-aab9-27e48ac760b5"/>
+    <recordKeyType typeId="e8353489-18b5-4bd9-9695-43f78833a836" valueTypeId="02428a96-d070-4acd-86b6-db382b7e0ad0"/>
+    <recordType typeId="1f43df85-de31-4364-9ed8-b0b377fb1eac" valueTypeId="ff133404-1f90-477b-9943-cf3c0c41c857"/>
+    <recordManagerType typeId="3e32ac77-6b4d-4165-9297-8288a8ad2f7b" valueTypeId="5fedfad8-003c-4967-b7bd-42adfc5d15f6"/>
+  </producedTypes>
+  <name>КурсыКриптоВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курсы крипто валют</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a5d23f4a-60dc-4df1-a483-23db323442f2">
+    <name>Курс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>5</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c9c4dba7-8870-41d0-a2e3-b348f3c079b7">
+    <name>ВалютаБазовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта базовая</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a9673c3e-5acf-46e5-85f8-36704e2315f9">
+    <name>ВалютаКотировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта котировки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

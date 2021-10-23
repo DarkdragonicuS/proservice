@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c75d144d-4269-4a3c-87b8-b7e3b66d1234">
+  <producedTypes>
+    <objectType typeId="8f3826a4-3583-43e4-a386-829a609fe77c" valueTypeId="1ae2540c-d7cf-4ad9-8dc0-7a2a2489c4dd"/>
+    <managerType typeId="49cdcfae-5988-477c-8c89-9e094631f388" valueTypeId="0a23461d-dffd-4013-b0e0-91b28fa0c951"/>
+  </producedTypes>
+  <name>ОбменСEthermine</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с Ethermine</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбменСEthermine.Form.Форма</defaultForm>
+  <forms uuid="1d9da4b1-254c-49a0-8a7b-96010d20ebd3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2a334da-53e1-4381-8880-de2b58679b8f">
+  <producedTypes>
+    <managerType typeId="a2bd57f6-bc7c-4fc2-a729-0f1c5f644521" valueTypeId="86f41ca7-42f8-42ec-8309-dadc27423700"/>
+    <valueManagerType typeId="d9f16b57-dab5-49ab-9736-8c796507b114" valueTypeId="61b78e86-4257-4b75-9ee1-375849ea0b68"/>
+    <valueKeyType typeId="9d6f4085-8099-4d2c-a1b8-3eb9eec870f1" valueTypeId="5be3af71-747a-4bed-84e7-14e89f94d382"/>
+  </producedTypes>
+  <name>ТокенNiceHashAPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токен NiceHash API</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

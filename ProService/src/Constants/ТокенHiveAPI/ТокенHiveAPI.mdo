@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b55df5aa-7502-46e1-bf0d-c2cc31826259">
+  <producedTypes>
+    <managerType typeId="76771e16-289a-4d63-aabe-b383201687ad" valueTypeId="1ce0ba23-41c3-486c-ad40-4cc181a9c0f6"/>
+    <valueManagerType typeId="831f9412-68b1-4435-8088-033c00c2582f" valueTypeId="ed28e507-c0b1-4232-9775-679bd6bb12d3"/>
+    <valueKeyType typeId="80692f7f-12cc-448d-ac8a-fadb378f5998" valueTypeId="ebb97c03-d4b5-4f6d-9428-949e4b645fc3"/>
+  </producedTypes>
+  <name>ТокенHiveAPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токен Hive API</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

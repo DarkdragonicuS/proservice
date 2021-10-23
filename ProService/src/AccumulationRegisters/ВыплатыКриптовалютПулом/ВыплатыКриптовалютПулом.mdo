@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7f177df-b74c-4493-bca6-b092c9f0d77c">
+  <producedTypes>
+    <selectionType typeId="5b4637c7-6c2f-420e-a456-11d85f965fe9" valueTypeId="fffe9e93-b3ef-4e28-b762-45544fd0a3f0"/>
+    <listType typeId="fdfacc0f-a697-40c9-b2e4-86f32e5d38cc" valueTypeId="93b66ac5-bd65-43a2-81aa-73586c5ff9da"/>
+    <managerType typeId="168f8a7e-f1bb-436a-a813-7e5db1f90ca3" valueTypeId="f187fc32-3701-4d89-86bb-cbcd2cde5967"/>
+    <recordSetType typeId="4322d5e6-a869-4f87-9fa5-453face09fde" valueTypeId="a24ca616-8515-4a7c-aee3-5e25d0eb70f7"/>
+    <recordKeyType typeId="88700846-6542-42ab-95d8-6cb66b1af02d" valueTypeId="22f84152-54c7-4662-8d42-0861bcbb18e0"/>
+    <recordType typeId="177f4c11-e825-4874-8306-edaf4934c990" valueTypeId="0a84772f-9d38-4aaf-bd37-9260129aad1f"/>
+  </producedTypes>
+  <name>ВыплатыКриптовалютПулом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выплаты криптовалют пулом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="25df37cd-f4da-4f67-bb6e-bba52d6523f0">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <scale>18</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="37e9af6a-7d15-4c14-a2d7-dadfa6c81a28">
+    <name>Пул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пул</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПулыМайнинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5c115a79-5bc0-4207-92e0-dee9b6942e80">
+    <name>Кошелек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кошелек</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Криптокошельки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="55e8c1b9-ae39-4275-97fa-6ef3d9bf1723">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="66c46c40-f604-452c-aadd-ff6bc692aafc">
+    <name>Timestamp</name>
+    <synonym>
+      <key>ru</key>
+      <value>Timestamp</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc43f947-e879-47f0-9114-be2935b57657">
+  <name>ДеревоДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дерево документов</value>
+  </synonym>
+</mdclass:CommonPicture>

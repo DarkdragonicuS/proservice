@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d67c8007-2fa5-416e-bcd1-94393769ff85">
+  <name>Прочее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочее</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.Телефоны_ЧС</content>
+  <content>DataProcessor.ДеревоДокументов</content>
+  <content>Document.Оприходование</content>
+  <content>Document.Списание</content>
+  <content>Report.ОстаткиНоменклатуры</content>
+  <content>CommonModule.ОбщегоНазначения</content>
+</mdclass:Subsystem>

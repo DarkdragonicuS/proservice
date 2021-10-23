@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ca8128d-b228-44ee-8776-a4ed212a6f26">
+  <producedTypes>
+    <managerType typeId="5ae5cc2e-94ea-4f53-9e40-a219f5b978ec" valueTypeId="8f512a28-6ab5-4397-b434-ac46507dcd9a"/>
+    <valueManagerType typeId="52ff4cc8-42ae-47aa-9522-7432e3af195f" valueTypeId="5d27511d-ccdb-4c3f-8fc9-ceb6cd5bcc7c"/>
+    <valueKeyType typeId="5feb0abc-7660-43b6-891e-04e007922d65" valueTypeId="963581b6-eb4d-4564-aef9-79bd903f947d"/>
+  </producedTypes>
+  <name>АдресAPINiceHash</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес API NiceHash</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

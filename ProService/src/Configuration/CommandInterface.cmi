@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.Закупки</subsystems>
+    <subsystems>Subsystem.Заявки</subsystems>
+    <subsystems>Subsystem.НСИ</subsystems>
+    <subsystems>Subsystem.Продажи</subsystems>
+    <subsystems>Subsystem.Прочее</subsystems>
+    <subsystems>Subsystem.Финансы</subsystems>
+    <subsystems>Subsystem.Крипто</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

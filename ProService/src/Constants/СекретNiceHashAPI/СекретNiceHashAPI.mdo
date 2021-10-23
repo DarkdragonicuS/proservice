@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad67d573-28ed-41da-8905-afd5f1e9cace">
+  <producedTypes>
+    <managerType typeId="665f45d8-4398-4484-a84a-5df1193924d4" valueTypeId="d0f98403-fe92-4b52-a886-0b9267cd9209"/>
+    <valueManagerType typeId="aeba0858-0435-4b54-8393-40765f8b1216" valueTypeId="3d3231e5-9bf6-48bb-97ab-161d60f1c7fa"/>
+    <valueKeyType typeId="90f56f23-cd4e-44e8-8085-036455e31a3c" valueTypeId="91449010-9e6e-4d84-906c-d8598f2f5c04"/>
+  </producedTypes>
+  <name>СекретNiceHashAPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Секрет NiceHash API</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

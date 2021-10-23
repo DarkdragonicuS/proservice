@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57320ecd-be68-40cb-b339-76be334a49ee">
+  <name>ВзаимодействиеСNiceHash</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимодействие с NiceHash</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

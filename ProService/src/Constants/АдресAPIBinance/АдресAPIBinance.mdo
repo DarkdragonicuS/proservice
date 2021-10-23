@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80e31f32-4815-4523-a792-9b4be0fd622d">
+  <producedTypes>
+    <managerType typeId="bebde9ba-f730-4aa2-b663-bed5eb61fc8b" valueTypeId="a521ea66-6368-4890-9650-c55dbf36044f"/>
+    <valueManagerType typeId="d5f4cc0c-3e53-4cf3-ba3e-fbf9344ba2c6" valueTypeId="5df76a1a-6e49-408c-86de-606abb8dcc59"/>
+    <valueKeyType typeId="008599ea-e006-4517-bc15-f967e2de09a6" valueTypeId="8fd0acd2-1184-402c-8c1c-bac3f17e53e8"/>
+  </producedTypes>
+  <name>АдресAPIBinance</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес API Binance</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

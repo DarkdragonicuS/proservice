@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="306acc74-d660-4538-a91b-15bb41da72ab">
+  <name>ПроСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>ПроСервис</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="2c27c5a7-bd8f-45a7-8c20-43aab4430a1a"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="63734241-b4ab-4116-8d05-6dc2c194dedd"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d6542f9f-3a4e-4a98-be5e-c0d03652e062"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="7ccf2259-1012-403b-99f2-1924a3c18ad9"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c60f3ef1-a6ef-43d3-9e70-7b6a01d9115e"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="642c0ae3-d526-4cbe-bef6-5e2eec7b410f"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="aa5d2b65-2acb-4758-9982-0e9db369dcfe"/>
+  <configurationExtensionCompatibilityMode>8.3.19</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Nixiris Dartero</vendor>
+  <version>0.14.93b</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <splash/>
+  <copyright>
+    <key>ru</key>
+    <value>Nixiris Dartero</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="5747900b-a260-4f23-95e3-1d0605aa9d15">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Заявки</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Прочее</subsystems>
+  <subsystems>Subsystem.Финансы</subsystems>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Крипто</subsystems>
+  <commonPictures>CommonPicture.ДеревоДокументов</commonPictures>
+  <commonPictures>CommonPicture.Эфир</commonPictures>
+  <roles>Role.ПолныеПрава</roles>
+  <filterCriteria>FilterCriterion.СвязанныеОбъекты</filterCriteria>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ВзаимодействиеСEhtermine</commonModules>
+  <commonModules>CommonModule.ВзаимодействиеСBinance</commonModules>
+  <commonModules>CommonModule.ВзаимодействиеСHive</commonModules>
+  <commonModules>CommonModule.ВзаимодействиеСNiceHash</commonModules>
+  <commonModules>CommonModule.КриптоФункции</commonModules>
+  <commonModules>CommonModule.ВзаимодействиеСPolygon</commonModules>
+  <scheduledJobs>ScheduledJob.ЗагрузкаДанныхСEthermine</scheduledJobs>
+  <constants>Constant.АдресAPIEthermine</constants>
+  <constants>Constant.ОсновнойКошелек</constants>
+  <constants>Constant.АдресAPIBinance</constants>
+  <constants>Constant.АдресAPIHive</constants>
+  <constants>Constant.ТокенHiveAPI</constants>
+  <constants>Constant.АдресAPINiceHash</constants>
+  <constants>Constant.ТокенNiceHashAPI</constants>
+  <constants>Constant.СекретNiceHashAPI</constants>
+  <constants>Constant.NiceHashOrganizationId</constants>
+  <constants>Constant.АдресAPIPolygonscan</constants>
+  <constants>Constant.ТокенPolyscanAPI</constants>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ВидыОборудования</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ФирмаНоменклатуры</catalogs>
+  <catalogs>Catalog.ВидыОплаты</catalogs>
+  <catalogs>Catalog.СтатьиДвиженияДенежныхСредств</catalogs>
+  <catalogs>Catalog.СтатьиДоходов</catalogs>
+  <catalogs>Catalog.СтатьиРасходов</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Криптокошельки</catalogs>
+  <catalogs>Catalog.ПулыМайнинга</catalogs>
+  <catalogs>Catalog.Блокчейны</catalogs>
+  <documents>Document.ЗаявкаНаРемонт</documents>
+  <documents>Document.Поступление</documents>
+  <documents>Document.Оприходование</documents>
+  <documents>Document.Списание</documents>
+  <documents>Document.ЗаказТоваров</documents>
+  <documents>Document.Реализация</documents>
+  <documents>Document.ВыплатаКриптовалютыПулом</documents>
+  <documentNumerators>DocumentNumerator.НумераторДокументов1</documentNumerators>
+  <enums>Enum.ВидыРасчета</enums>
+  <enums>Enum.ЗаявкаНаРемонт_Статусы</enums>
+  <reports>Report.Выручка</reports>
+  <reports>Report.ДвижениеДенежныхСредств</reports>
+  <reports>Report.ОстаткиНоменклатуры</reports>
+  <dataProcessors>DataProcessor.ДеревоДокументов</dataProcessors>
+  <dataProcessors>DataProcessor.ОбменСEthermine</dataProcessors>
+  <dataProcessors>DataProcessor.ОбменСNiceHash</dataProcessors>
+  <informationRegisters>InformationRegister.КонтактныйТелефон</informationRegisters>
+  <informationRegisters>InformationRegister.Телефоны_ЧС</informationRegisters>
+  <informationRegisters>InformationRegister.КомлектующиеНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.КурсыКриптоВалют</informationRegisters>
+  <informationRegisters>InformationRegister.Начисления</informationRegisters>
+  <informationRegisters>InformationRegister.ХэшрейтОборудования</informationRegisters>
+  <informationRegisters>InformationRegister.БалансКошелька</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Выручка</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДвиженияДенежныхСредств</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВыплатыКриптовалютПулом</accumulationRegisters>
+</mdclass:Configuration>

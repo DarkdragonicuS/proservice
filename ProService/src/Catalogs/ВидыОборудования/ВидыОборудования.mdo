@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97f45416-405a-4532-bb19-f6054e59ebb1">
+  <producedTypes>
+    <objectType typeId="1bce45e2-bb28-40b2-906f-19ed56d99e0b" valueTypeId="5257f885-c52a-44e6-a83b-e5618867a1dd"/>
+    <refType typeId="a28ee2e3-ecb3-42aa-a2ec-e2ac06f6f0fe" valueTypeId="7e3cc409-de42-4b0e-8dc3-48a46f48b5a2"/>
+    <selectionType typeId="70f868cf-924c-409a-a883-3414a58e2070" valueTypeId="0efd409e-1bea-46db-88ef-aa47204741de"/>
+    <listType typeId="71d02811-dbca-4f54-809f-855845611002" valueTypeId="246b0455-4202-4d7d-9f69-da54496e9718"/>
+    <managerType typeId="76afdde6-b23f-4677-b3b5-183f92b174ef" valueTypeId="654a708e-43fa-4129-9db2-52ad3f8d9e66"/>
+  </producedTypes>
+  <name>ВидыОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды оборудования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыОборудования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыОборудования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыОборудования.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="0b295d26-cbb3-4c50-9ea8-070355b96f03">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

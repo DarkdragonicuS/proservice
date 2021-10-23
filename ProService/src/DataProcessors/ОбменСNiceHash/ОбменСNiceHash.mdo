@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffbf017b-5576-47b1-af8a-00703a017810">
+  <producedTypes>
+    <objectType typeId="55988dec-039e-4c86-9c3f-b3d12f73562d" valueTypeId="b5200fbf-7640-42db-9b5b-dfd5b23b8ff7"/>
+    <managerType typeId="6b9dddc6-d494-4865-8e67-e2f4fbf6e93b" valueTypeId="2f30f35d-e188-403e-bea4-9a7027df7e6b"/>
+  </producedTypes>
+  <name>ОбменСNiceHash</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с NiceHash</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбменСNiceHash.Form.Форма</defaultForm>
+  <forms uuid="d3c35190-1dc7-4bb4-aaa6-cfa2624f67f2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

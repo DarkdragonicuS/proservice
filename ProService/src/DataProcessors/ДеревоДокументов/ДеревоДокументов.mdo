@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3162b84f-f2db-4ad1-8277-9c9ce660da5b">
+  <producedTypes>
+    <objectType typeId="116f6fb5-f4a8-4871-8833-5b922be25bfa" valueTypeId="03b6f46c-97a7-422d-8485-9ae30be7ab21"/>
+    <managerType typeId="4d415c7a-5e6c-47bf-9296-2e766bc74647" valueTypeId="37025b5d-e805-45a7-82a1-bd31654981e8"/>
+  </producedTypes>
+  <name>ДеревоДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дерево документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДеревоДокументов.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="99387de5-ddc1-40f2-b1b3-bcbd6a1a03d9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="df037c4a-1caa-4b64-8585-8c6cec55544c">
+    <name>Дерево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево</value>
+    </synonym>
+  </templates>
+  <commands uuid="ae8eed3b-bd1c-48bf-ab7f-e7307d4a7f44">
+    <name>ДеревоДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево документов</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>DocumentRef.Оприходование</types>
+      <types>DocumentRef.Поступление</types>
+      <types>DocumentRef.ЗаказТоваров</types>
+      <types>DocumentRef.ЗаявкаНаРемонт</types>
+      <types>DocumentRef.Списание</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="5ea09807-8796-4e7a-8c80-3d49d3468b4e">
+    <name>ДеревоДокументовСписок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево документов</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.Оприходование</types>
+      <types>DocumentRef.Поступление</types>
+      <types>DocumentRef.ЗаказТоваров</types>
+      <types>DocumentRef.ЗаявкаНаРемонт</types>
+      <types>DocumentRef.Списание</types>
+    </commandParameterType>
+    <representation>Picture</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ДеревоДокументов</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

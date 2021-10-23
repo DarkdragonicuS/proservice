@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2df27018-cd8b-4535-9cc7-cc5f465a2147">
+  <producedTypes>
+    <objectType typeId="e64d777a-cb3f-4139-95f9-e838d180cbf4" valueTypeId="629b4dbc-3d15-43c3-bb82-44a96324eb9b"/>
+    <refType typeId="659b8fc9-e082-4f57-87b0-1adf598358ce" valueTypeId="fbf58c16-1fad-4f5e-94f3-f0987896be00"/>
+    <selectionType typeId="8e460d18-2b91-474b-a129-662639fcf79e" valueTypeId="bbabd01d-e208-4909-85b2-9696acc47634"/>
+    <listType typeId="d59f5e38-5ce6-4095-a7fc-6d6e4dea630a" valueTypeId="1b829e74-17e0-45ae-9753-69f35ed58fdb"/>
+    <managerType typeId="62a3727c-77b0-4b4e-811d-ec93b9c4cf11" valueTypeId="313ba680-4f7f-4f67-8c97-5bd9580e1472"/>
+  </producedTypes>
+  <name>Блокчейны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блокчейны</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Блокчейны.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Блокчейны.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c19a088a-643e-4778-878d-2d35899191a8">
+      <name>BinanceChain</name>
+      <description>Binance Chain</description>
+      <code xsi:type="core:StringValue">
+        <value>BEP-2</value>
+      </code>
+    </items>
+    <items id="756d6d3b-5131-484e-bbec-eb28dfd942d6">
+      <name>BinanceSmartChain</name>
+      <description>Binance Smart Chain</description>
+      <code xsi:type="core:StringValue">
+        <value>BEP-20</value>
+      </code>
+    </items>
+    <items id="23d54ac8-7a11-42ec-bde1-f76157a4869b">
+      <name>Bitcoin</name>
+      <description>Bitcoin</description>
+      <code xsi:type="core:StringValue">
+        <value>BTC</value>
+      </code>
+    </items>
+    <items id="d4dcb78c-0949-4b01-8e66-4aedb0bb1ee8">
+      <name>Ethereum</name>
+      <description>Ethereum</description>
+      <code xsi:type="core:StringValue">
+        <value>ERC-20</value>
+      </code>
+    </items>
+    <items id="0d935413-c021-4b4f-bca6-b9b451fe420a">
+      <name>Polygon</name>
+      <description>Polygon</description>
+      <code xsi:type="core:StringValue">
+        <value>MATIC</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

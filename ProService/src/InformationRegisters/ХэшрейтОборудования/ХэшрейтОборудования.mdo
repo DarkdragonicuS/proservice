@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14f6ff82-92c2-4fb0-8abd-2c00983825de">
+  <producedTypes>
+    <selectionType typeId="7e7455e5-b657-45ce-b5f4-09192d9ac2b0" valueTypeId="33b5e9ac-8dd4-4c7e-8a45-03c2b541d484"/>
+    <listType typeId="cdb5e7d9-9659-45a3-9306-92e278ae3375" valueTypeId="0f7e5f0d-3487-47da-b315-1c1156a0133e"/>
+    <managerType typeId="86efcfac-996b-41da-8454-b4133e18dedf" valueTypeId="4811e4e6-7e12-47aa-9992-af7e0ad17cdb"/>
+    <recordSetType typeId="115fcf8f-caea-4667-8367-cdf094c8a3e0" valueTypeId="bbfd5cb7-38a3-43dc-b8bd-58ae00deb793"/>
+    <recordKeyType typeId="fa2f37ce-6925-4f46-818d-22d7fdce8043" valueTypeId="b87ee64f-461c-4cdd-9adf-d0f96cc8c6b1"/>
+    <recordType typeId="1cc7fdb1-c1eb-4baf-beaa-87f1741ab021" valueTypeId="b1cc25d9-0b36-413e-b24f-c20966a217b9"/>
+    <recordManagerType typeId="7cf29115-1b22-4b55-87f4-ce154a866a21" valueTypeId="e409e87d-34f7-4db7-9c64-88ee1b7740e4"/>
+  </producedTypes>
+  <name>ХэшрейтОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хэшрейт оборудования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ab27a70a-45d4-44a0-8828-a7bfbd627506">
+    <name>Хэшрэйт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэшрэйт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>21</precision>
+        <scale>8</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a1047a58-21a8-49cd-bb4a-4a1f8cba5a89">
+    <name>ИмяФермы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя фермы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="de8cb235-a8e4-4d74-b449-eb6deb4232cc">
+    <name>ЭффективныйХэшрейт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эффективный хэшрейт</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="18b45e97-3b16-4a34-aefa-8daf85a69f49">
+    <name>ФермаID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ферма ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6e6acfda-8b18-4f02-b234-36478610e028">
+    <name>ВоркерID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Воркер ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7b6de117-ce32-49a2-a564-9c8c4658efc7">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a874d2a1-a788-44f7-868c-8642f8f851e8">
+  <producedTypes>
+    <managerType typeId="2589717d-941e-470f-acbd-02729c52642e" valueTypeId="1d2797a4-b1a0-4f55-b783-7e0a123f6d44"/>
+    <valueManagerType typeId="b98890b0-1dfd-4978-ba80-74f78f29ae9e" valueTypeId="5f1c2e4a-07e7-4610-9c16-63207884ca5a"/>
+    <valueKeyType typeId="7c266858-f9eb-4d03-b8f4-99f42981eeb8" valueTypeId="971c54e1-4403-42c6-83e3-9599847b46bf"/>
+  </producedTypes>
+  <name>ТокенPolyscanAPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токен Polyscan API</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

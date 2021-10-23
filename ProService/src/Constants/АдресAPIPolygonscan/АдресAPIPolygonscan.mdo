@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fa1f3f8-e8f2-4b59-bf72-00927c2a8d2d">
+  <producedTypes>
+    <managerType typeId="4f3bec1e-9d74-4234-9efb-5b584d479817" valueTypeId="1b123ba4-8b7b-42be-ae53-4bfc48ae6ed8"/>
+    <valueManagerType typeId="863743bd-13c3-4863-9256-79fd75141ba8" valueTypeId="c32295cd-6702-4871-ba0a-f714dd557abf"/>
+    <valueKeyType typeId="4176de43-bbe0-464f-ba36-02a0ea0ed049" valueTypeId="a02bf1c0-b730-42c4-8409-6f3f7dab181c"/>
+  </producedTypes>
+  <name>АдресAPIPolygonscan</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес API Polygonscan</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

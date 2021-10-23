@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e37019c3-1fc5-4935-962b-a9cd7637db9a">
+  <producedTypes>
+    <managerType typeId="8548493e-485c-4b04-9859-70fdc87d0a29" valueTypeId="75f45e6c-86c4-4b8f-b82b-9ddd68d38d35"/>
+    <valueManagerType typeId="459bf83b-6651-4356-b807-dcde4d2de128" valueTypeId="48b7118d-b540-4ccb-8c5a-428812c92bca"/>
+    <valueKeyType typeId="786dbac0-62cb-474a-aa45-613a82679c5a" valueTypeId="beadf7d6-c2bb-4af7-b823-ee8ba94180d3"/>
+  </producedTypes>
+  <name>ОсновнойКошелек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной кошелек</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Криптокошельки</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

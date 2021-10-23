@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddaafae8-a4e0-443e-a69c-39495cb2a1cb">
+  <producedTypes>
+    <managerType typeId="58ea0256-3f12-4433-8f3e-0b3a7fe1b834" valueTypeId="badc88d8-e702-445d-95f4-58d1bdeee744"/>
+    <valueManagerType typeId="6ee0b153-ca48-4bd9-b658-f3a1848a613a" valueTypeId="fd54a92a-addd-401a-9c87-3bc14b71644a"/>
+    <valueKeyType typeId="28df9e46-4069-4e73-8922-98b16fe96b63" valueTypeId="94d07643-4a42-4a80-98ff-a9ed8eff33a1"/>
+  </producedTypes>
+  <name>АдресAPIEthermine</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес API Ethermine</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

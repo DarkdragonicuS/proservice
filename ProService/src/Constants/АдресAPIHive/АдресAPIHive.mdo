@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54b40d79-ec19-4859-b9cb-297bf7134a2f">
+  <producedTypes>
+    <managerType typeId="c17a5570-c307-4439-84c9-0c3fbff8df7a" valueTypeId="425579d3-12e6-41dc-9143-16c4b7123c76"/>
+    <valueManagerType typeId="ae7d2071-8029-4f21-8565-fbc2ad87f647" valueTypeId="217d37b6-8d68-41cb-9e47-87350464fb5f"/>
+    <valueKeyType typeId="13bb8020-0be1-4cba-9fcf-33efc9b98ec3" valueTypeId="20f3f80c-6423-4305-a849-368f167e8304"/>
+  </producedTypes>
+  <name>АдресAPIHive</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес API Hive</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

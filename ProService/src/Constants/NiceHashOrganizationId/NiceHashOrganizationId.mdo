@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e42312a-b7be-46fa-94ba-f1448e9af22d">
+  <producedTypes>
+    <managerType typeId="9272fa2a-ce7f-4e71-bc93-f3d0b61f161c" valueTypeId="2f03b92b-b4dd-4e57-b6ff-de3023bd146e"/>
+    <valueManagerType typeId="929294dd-a4b0-41c5-82f3-846a8013839b" valueTypeId="1d9bf56b-88c3-4414-96cd-f106111a3682"/>
+    <valueKeyType typeId="5a6b0964-2627-4819-bfb4-841e3c8b7392" valueTypeId="e22fb2be-abbc-4061-911f-d30f3d260ab2"/>
+  </producedTypes>
+  <name>NiceHashOrganizationId</name>
+  <synonym>
+    <key>ru</key>
+    <value>NiceHash Organization ID</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

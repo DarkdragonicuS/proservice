@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d1f9793-29f4-4fd3-afd0-2396fd7ab243">
+  <name>Крипто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Крипто</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Эфир</picture>
+  </picture>
+  <content>InformationRegister.КурсыКриптоВалют</content>
+  <content>Constant.АдресAPIEthermine</content>
+  <content>Catalog.Валюты</content>
+  <content>DataProcessor.ОбменСEthermine</content>
+  <content>InformationRegister.Начисления</content>
+  <content>AccumulationRegister.ВыплатыКриптовалютПулом</content>
+  <content>Catalog.Криптокошельки</content>
+  <content>Document.ВыплатаКриптовалютыПулом</content>
+  <content>Constant.ОсновнойКошелек</content>
+  <content>ScheduledJob.ЗагрузкаДанныхСEthermine</content>
+  <content>CommonModule.ВзаимодействиеСEhtermine</content>
+  <content>Constant.АдресAPIBinance</content>
+  <content>CommonModule.ВзаимодействиеСBinance</content>
+  <content>CommonModule.ВзаимодействиеСHive</content>
+  <content>Constant.АдресAPIHive</content>
+  <content>Constant.ТокенHiveAPI</content>
+  <content>InformationRegister.ХэшрейтОборудования</content>
+  <content>Catalog.ПулыМайнинга</content>
+  <content>CommonModule.ВзаимодействиеСNiceHash</content>
+  <content>Constant.АдресAPINiceHash</content>
+  <content>DataProcessor.ОбменСNiceHash</content>
+  <content>Constant.ТокенNiceHashAPI</content>
+  <content>CommonModule.КриптоФункции</content>
+  <content>Constant.СекретNiceHashAPI</content>
+  <content>Constant.NiceHashOrganizationId</content>
+  <content>Catalog.Блокчейны</content>
+  <content>CommonModule.ВзаимодействиеСPolygon</content>
+  <content>InformationRegister.БалансКошелька</content>
+  <content>Constant.АдресAPIPolygonscan</content>
+  <content>Constant.ТокенPolyscanAPI</content>
+</mdclass:Subsystem>

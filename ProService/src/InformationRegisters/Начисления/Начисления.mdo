@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6f7369e-fca1-406a-a70d-a9da2ce6c39c">
+  <producedTypes>
+    <selectionType typeId="558150b8-0bcf-4478-a6cd-c8074ba48d96" valueTypeId="fa54f2a0-bd06-4516-8736-be0a6f43e366"/>
+    <listType typeId="e377d25d-416e-45ba-a8ca-bac2379d8b59" valueTypeId="248cafbf-e371-462b-b7af-183b9ec34beb"/>
+    <managerType typeId="88f18e25-45f6-4551-a5a9-944d20e0caef" valueTypeId="ab402dcd-d67a-41eb-b6ac-7db402093b4d"/>
+    <recordSetType typeId="db0eae3d-9192-4f5f-8f76-2d6d679a713f" valueTypeId="ccc3cf10-6e6c-4da4-8ff3-5544115afda8"/>
+    <recordKeyType typeId="91a51a6c-2a42-46f3-9156-75014e55ed96" valueTypeId="b06da195-03be-41dc-9720-d1f3fa565050"/>
+    <recordType typeId="adc7b2b8-2de0-4cfd-9feb-5b2e8de95c67" valueTypeId="9304b218-01c7-4dbd-9ea1-8f04b2bccf9f"/>
+    <recordManagerType typeId="0c65bc42-6e0c-42be-9a07-7a3cc4a45b15" valueTypeId="c311fc4e-1577-4c46-a848-4c6f053690f5"/>
+  </producedTypes>
+  <name>Начисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="30a3e27d-2e55-4439-9409-3d06efa7829e">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <scale>18</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2ff3a96c-ef2c-4884-a28b-f251e58330e9">
+    <name>Timestamp</name>
+    <synonym>
+      <key>ru</key>
+      <value>Timestamp</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

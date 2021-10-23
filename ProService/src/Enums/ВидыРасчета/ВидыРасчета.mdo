@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91c1d069-f87a-4e6d-8535-83cd5c8da383">
+  <producedTypes>
+    <refType typeId="1e4d9ed8-e60c-4330-9022-5383c7198600" valueTypeId="6304c67a-e6c2-4dbc-9545-787b7027426e"/>
+    <listType typeId="33e4aba4-7bc9-4a1b-b025-b78b245156e0" valueTypeId="f1bbf6e1-49d1-43c0-a673-cad10f239e68"/>
+    <managerType typeId="8676d1a8-ffea-4ce8-87ad-991161c4dddd" valueTypeId="ec05b0e7-ddf8-499a-9c31-b5891fc19523"/>
+  </producedTypes>
+  <name>ВидыРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды расчета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d28e4e36-0a48-4465-98f4-c3d2c373dcc1">
+    <name>Предоплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоплата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5fac2acb-5a1b-4b54-a210-fc3f8eeef65a">
+    <name>РасчетПоФакту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет по факту</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
