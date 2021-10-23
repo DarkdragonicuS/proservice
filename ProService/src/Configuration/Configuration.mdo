@@ -28,7 +28,6 @@
     </functionality>
   </usedMobileApplicationFunctionalities>
   <defaultLanguage>Language.Русский</defaultLanguage>
-  <splash/>
   <copyright>
     <key>ru</key>
     <value>Nixiris Dartero</value>
