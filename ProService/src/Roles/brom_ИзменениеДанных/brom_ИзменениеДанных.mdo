@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="470ca508-c6ef-4087-89f1-e181be9c17ef">
+  <name>brom_ИзменениеДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Бром) Изменение данных</value>
+  </synonym>
+</mdclass:Role>

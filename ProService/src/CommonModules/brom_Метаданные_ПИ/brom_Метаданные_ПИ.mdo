@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0d609dc-bea5-4376-8ce1-015598dd8530">
+  <name>brom_Метаданные_ПИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Бром) Общего назначения (повт.исп)</value>
+  </synonym>
+  <server>true</server>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="912c2ef2-37f6-4de4-a85d-4b79039821a4">
+  <name>brom_API</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Бром) API</value>
+  </synonym>
+  <namespace>https://brom.itworks.group</namespace>
+</mdclass:XDTOPackage>

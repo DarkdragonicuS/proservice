@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3403f193-ef81-4cc9-9f96-a8f503a12932">
+  <name>brom_api</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Бром) API</value>
+  </synonym>
+  <namespace>https://brom.itworks.group</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>be64ef76-3a7d-4739-a272-affeee0fb49c</value>
+  </xdtoPackages>
+  <descriptorFileName>brom.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>60</sessionMaxAge>
+  <operations uuid="5c9badab-9a26-416b-a5e2-3da2ead56b46">
+    <name>DebugPing</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Debug) Ping</value>
+    </synonym>
+    <comment>Возвращает пустую строку.</comment>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>DebugPing</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="4b78e7ce-043b-4e57-93c0-42da4ce086b4">
+    <name>DebugEcho</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Debug) Echo</value>
+    </synonym>
+    <comment>Принимает на вход значение, десериализует, сериализует обратно и возвращает в качестве результата.</comment>
+    <xdtoReturningValueType>
+      <name>ValueBase</name>
+      <nsUri>https://brom.itworks.group</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>DebugEcho</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="dd862ddf-81a9-4706-812f-07b23001d64a">
+      <name>param</name>
+      <synonym>
+        <key>ru</key>
+        <value>Param</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueBase</name>
+        <nsUri>https://brom.itworks.group</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="360a32dd-2ebf-40a0-8d51-504050b710d4">
+    <name>GetSystemInfo</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get system info</value>
+    </synonym>
+    <comment>Возвращает данные о конфигурации базы данных и о установленных поверх конфигурации расширениях.</comment>
+    <xdtoReturningValueType>
+      <name>ValueStruct</name>
+      <nsUri>https://brom.itworks.group</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetSystemInfo</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="df2aac7c-6a51-4058-8b79-685f4afaa405">
+    <name>GetMetadata</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get metadata</value>
+    </synonym>
+    <comment>Возвращает список объектов метаданных, а также их соств (реквизиты и табличные части).</comment>
+    <xdtoReturningValueType>
+      <name>MetadataApplication</name>
+      <nsUri>https://brom.itworks.group</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetMetadata</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="8c1d0ddd-c3cc-4cdc-b0e2-3063b3e85a46">
+      <name>nodes</name>
+      <synonym>
+        <key>ru</key>
+        <value>Nodes</value>
+      </synonym>
+      <comment>Объекты метаданных, которые необходимо получить.</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="07273d9a-d6d6-43ed-8101-5f1a93a371ea">
+      <name>pack_size</name>
+      <synonym>
+        <key>ru</key>
+        <value>Pack size</value>
+      </synonym>
+      <comment>Максимальное количество объектов метаданных в одном пакете.</comment>
+      <xdtoValueType>
+        <name>unsignedInt</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="2ec7c9f4-7828-450c-9df6-482cd7b9b927">
+      <name>pack_index</name>
+      <synonym>
+        <key>ru</key>
+        <value>Pack index</value>
+      </synonym>
+      <comment>Номер пакета (нумерация начинается с 0).</comment>
+      <xdtoValueType>
+        <name>unsignedInt</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="3deb9e03-8458-41c4-a4e5-e7578ae1c9b5">
+    <name>GetMetadaChildrenNames</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get metada children names</value>
+    </synonym>
+    <comment>Возвращает список имен объектов метаданных.</comment>
+    <xdtoReturningValueType>
+      <name>ValueMap</name>
+      <nsUri>https://brom.itworks.group</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetMetadataNames</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="d31a67a3-f7fa-4aea-ac9e-ef7e7c23bb7a">
+      <name>parents</name>
+      <synonym>
+        <key>ru</key>
+        <value>Parents</value>
+      </synonym>
+      <comment>Узлы метаданных, для которых необходимо получить имена подчиненных узлов.</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="80911079-8fc9-4ca8-b50b-c012979f3b0e">
+    <name>GetObject</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get object</value>
+    </synonym>
+    <comment>Возвращает данные ссылочного объекта по его ссылке (значения реквизитов объекта и табличных частей объекта).</comment>
+    <xdtoReturningValueType>
+      <name>ValueRef</name>
+      <nsUri>https://brom.itworks.group</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetObject</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="bada4856-02b7-44bb-a6fe-55ea96804867">
+      <name>reference</name>
+      <synonym>
+        <key>ru</key>
+        <value>Reference</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueRef</name>
+        <nsUri>https://brom.itworks.group</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="c121ef70-6491-464c-ab34-0be33c57d580">
+      <name>settings</name>
+      <synonym>
+        <key>ru</key>
+        <value>Settings</value>
+      </synonym>
+      <xdtoValueType>
+        <name>GetObject_Settings</name>
+        <nsUri>https://brom.itworks.group</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="c33fc775-d4b6-45af-aa7c-aa117f846899">
+    <name>PostObject</name>
+    <synonym>
+      <key>ru</key>
+      <value>Post object</value>
+    </synonym>
+    <comment>Редактирует данные объекта по ссылке на объект и записывает его.</comment>
+    <xdtoReturningValueType>
+      <name>ValueObjectRef</name>
+      <nsUri>https://brom.itworks.group</nsUri>
+    </xdtoReturningValueType>
+    <transactioned>true</transactioned>
+    <procedureName>PostObject</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="c1eb723f-f51f-46a8-b2ae-5bef94d575f4">
+      <name>object</name>
+      <synonym>
+        <key>ru</key>
+        <value>Object</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueObjectRef</name>
+        <nsUri>https://brom.itworks.group</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="fe1a4ab7-9163-48aa-b709-fb1efed6cf82">
+      <name>settings</name>
+      <synonym>
+        <key>ru</key>
+        <value>Settings</value>
+      </synonym>
+      <xdtoValueType>
+        <name>PostObject_Settings</name>
+        <nsUri>https://brom.itworks.group</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="34bac653-0f34-4b97-b5f1-7a4c2f690560">
+    <name>DeleteObject</name>
+    <synonym>
+      <key>ru</key>
+      <value>Delete object</value>
+    </synonym>
+    <comment>Удаляет объект по ссылке.</comment>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <transactioned>true</transactioned>
+    <procedureName>DeleteObject</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="1a0cb978-4e04-4ae8-83cd-4996aa9d3a83">
+      <name>object</name>
+      <synonym>
+        <key>ru</key>
+        <value>Object</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueObjectRef</name>
+        <nsUri>https://brom.itworks.group</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="5ec3e51e-98d5-4528-a81e-9ba197323147">
+    <name>GetObjectList</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get object list</value>
+    </synonym>
+    <comment>Возвращает список объектов указанной коллекции с возможностью отбора, сортировки и вывода внутренних полей.</comment>
+    <xdtoReturningValueType>
+      <name>ValueArray</name>
+      <nsUri>https://brom.itworks.group</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetObjectList</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="288afc48-bb7c-46f8-be45-4264ec7ddbb1">
+      <name>type</name>
+      <synonym>
+        <key>ru</key>
+        <value>Entity type</value>
+      </synonym>
+      <xdtoValueType>
+        <name>CollectionType</name>
+        <nsUri>https://brom.itworks.group</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="300a94b5-f7e5-41d4-9c9b-fb3835d61be8">
+      <name>name</name>
+      <synonym>
+        <key>ru</key>
+        <value>Entity name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="6c1121e1-4ba4-4d5a-bc63-ad566cf5ae3d">
+      <name>settings</name>
+      <synonym>
+        <key>ru</key>
+        <value>Settings</value>
+      </synonym>
+      <xdtoValueType>
+        <name>GetObjectList_Settings</name>
+        <nsUri>https://brom.itworks.group</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="8d6f066c-1f65-4636-95cd-665d9bf1dbb3">
+    <name>GetSessionParameter</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get session parameter</value>
+    </synonym>
+    <comment>Возвращает значение параметра сеанса по его имени.</comment>
+    <xdtoReturningValueType>
+      <name>ValueBase</name>
+      <nsUri>https://brom.itworks.group</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetSessionParameter</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="e3efcdd6-20ee-49be-8719-5f5f18dbe954">
+      <name>name</name>
+      <synonym>
+        <key>ru</key>
+        <value>Entity name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>PropertyName</name>
+        <nsUri>https://brom.itworks.group</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="f88610a3-9d39-41d1-8e1b-8030744b072a">
+    <name>GetConstant</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get constant</value>
+    </synonym>
+    <comment>Возвращает значение константы.</comment>
+    <xdtoReturningValueType>
+      <name>ValueBase</name>
+      <nsUri>https://brom.itworks.group</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetConstant</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="4594615f-ef4d-4973-8562-b6fbdfa15fa7">
+      <name>name</name>
+      <synonym>
+        <key>ru</key>
+        <value>Entity name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>PropertyName</name>
+        <nsUri>https://brom.itworks.group</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="59826fe6-6af9-4260-a175-4962e88c73a6">
+      <name>settings</name>
+      <synonym>
+        <key>ru</key>
+        <value>Settings</value>
+      </synonym>
+      <xdtoValueType>
+        <name>GetConstant_Settings</name>
+        <nsUri>https://brom.itworks.group</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="525284c4-f0a6-4033-be2c-3953a22e10d7">
+    <name>SetConstant</name>
+    <synonym>
+      <key>ru</key>
+      <value>Set constant</value>
+    </synonym>
+    <comment>Устанавливает значение константы.</comment>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>SetConstant</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="c7376497-10f7-446c-a56f-a50308c76fa3">
+      <name>name</name>
+      <synonym>
+        <key>ru</key>
+        <value>Entity name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>PropertyName</name>
+        <nsUri>https://brom.itworks.group</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="1ff082c8-b57a-4002-9236-a7d1b728572a">
+      <name>value</name>
+      <synonym>
+        <key>ru</key>
+        <value>Value</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueBase</name>
+        <nsUri>https://brom.itworks.group</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="eb76a4e1-2187-4241-8e8f-efdd6cfdba19">
+    <name>GetConstantList</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get constant list</value>
+    </synonym>
+    <comment>Возвращает значения всех констант кофигурации.</comment>
+    <xdtoReturningValueType>
+      <name>ValueStruct</name>
+      <nsUri>https://brom.itworks.group</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetConstantList</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="d1b14b70-ad3e-4fd1-93bb-bc5f3f6823cd">
+      <name>settings</name>
+      <synonym>
+        <key>ru</key>
+        <value>Settings</value>
+      </synonym>
+      <xdtoValueType>
+        <name>GetConstant_Settings</name>
+        <nsUri>https://brom.itworks.group</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="1d61d674-d2c4-4aa1-8714-47663596f0cd">
+    <name>ExecuteRequest</name>
+    <synonym>
+      <key>ru</key>
+      <value>Execute request</value>
+    </synonym>
+    <comment>Возвращает результат выполнения запроса на языке запросов 1С:Предприятие.</comment>
+    <xdtoReturningValueType>
+      <name>ValueDataSet</name>
+      <nsUri>https://brom.itworks.group</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ExecuteRequest</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="d2039056-32d4-41ab-b694-892ab8079759">
+      <name>request</name>
+      <synonym>
+        <key>ru</key>
+        <value>Request</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="de98c02a-1cd9-43fe-bb9e-3b865a2a2042">
+      <name>settings</name>
+      <synonym>
+        <key>ru</key>
+        <value>Settings</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ExecuteRequest_Settings</name>
+        <nsUri>https://brom.itworks.group</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="6cf07f94-c8f4-4b69-8393-bddd7c363431">
+    <name>ExecuteRequestBatch</name>
+    <synonym>
+      <key>ru</key>
+      <value>Execute request batch</value>
+    </synonym>
+    <comment>Возвращает результат выполнения пакета запросов на языке запросов 1С:Предприятие.</comment>
+    <xdtoReturningValueType>
+      <name>ValueArray</name>
+      <nsUri>https://brom.itworks.group</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ExecuteRequestBatch</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="9ed4ef67-98b2-401e-8ea9-748286f59159">
+      <name>request</name>
+      <synonym>
+        <key>ru</key>
+        <value>Request</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="f0061af7-014b-4bfa-a103-6b9849201825">
+      <name>settings</name>
+      <synonym>
+        <key>ru</key>
+        <value>Settings</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ExecuteRequest_Settings</name>
+        <nsUri>https://brom.itworks.group</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="2213b545-a87b-428b-bddc-ae64a8e587e4">
+    <name>ExecuteMethod</name>
+    <synonym>
+      <key>ru</key>
+      <value>Execute method</value>
+    </synonym>
+    <comment>Вызывает серверную функцию или процедуру.</comment>
+    <xdtoReturningValueType>
+      <name>ValueBase</name>
+      <nsUri>https://brom.itworks.group</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ExecuteMethod</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="72da1e3e-93db-4540-918e-0ac612776a60">
+      <name>module</name>
+      <synonym>
+        <key>ru</key>
+        <value>Module</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="fd17f845-d06a-4b0a-83a9-d7e96f4167cd">
+      <name>method</name>
+      <synonym>
+        <key>ru</key>
+        <value>Method</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="7aa91bed-fe81-4958-ad8f-22a9cd5fe615">
+      <name>params</name>
+      <synonym>
+        <key>ru</key>
+        <value>Params</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueArray</name>
+        <nsUri>https://brom.itworks.group</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="d1291498-88ef-48cf-8ead-0b5d99e7ad66">
+    <name>ExecuteCode</name>
+    <synonym>
+      <key>ru</key>
+      <value>Execute code</value>
+    </synonym>
+    <comment>Выполняет на сервер произвольный фрагмент кода.</comment>
+    <xdtoReturningValueType>
+      <name>ValueBase</name>
+      <nsUri>https://brom.itworks.group</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ExecuteCode</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="9285cf04-bc89-4121-97df-8e4e42e37bd0">
+      <name>code</name>
+      <synonym>
+        <key>ru</key>
+        <value>Code</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="3a231643-8fbf-4de0-bd0c-020f597ff94a">
+      <name>param</name>
+      <synonym>
+        <key>ru</key>
+        <value>Param</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueBase</name>
+        <nsUri>https://brom.itworks.group</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+</mdclass:WebService>

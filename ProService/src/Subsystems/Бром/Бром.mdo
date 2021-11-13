@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88b4497f-bf50-450b-a4bf-6fe031b6e67e">
+  <name>Бром</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бром</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.brom_API</content>
+  <content>CommonModule.brom_API_ПИ</content>
+  <content>CommonModule.brom_Метаданные_ПИ</content>
+  <content>CommonModule.brom_Утилиты</content>
+  <content>CommonModule.brom_Настройки</content>
+  <content>Role.brom_ВызовПроцедур</content>
+  <content>Role.brom_ВыполнениеКода</content>
+  <content>Role.brom_ИзменениеДанных</content>
+  <content>Role.brom_ПолныеПрава</content>
+  <content>Role.brom_ЧтениеДанных</content>
+  <content>XDTOPackage.brom_API</content>
+  <content>WebService.brom_api</content>
+  <content>DataProcessor.brom_УстановкаРолейПользователей</content>
+</mdclass:Subsystem>

@@ -17,7 +17,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Nixiris Dartero</vendor>
-  <version>0.14.95b</version>
+  <version>0.15.100b</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -56,9 +56,15 @@
   <subsystems>Subsystem.Закупки</subsystems>
   <subsystems>Subsystem.Продажи</subsystems>
   <subsystems>Subsystem.Крипто</subsystems>
+  <subsystems>Subsystem.Бром</subsystems>
   <commonPictures>CommonPicture.ДеревоДокументов</commonPictures>
   <commonPictures>CommonPicture.Эфир</commonPictures>
   <roles>Role.ПолныеПрава</roles>
+  <roles>Role.brom_ВызовПроцедур</roles>
+  <roles>Role.brom_ВыполнениеКода</roles>
+  <roles>Role.brom_ИзменениеДанных</roles>
+  <roles>Role.brom_ПолныеПрава</roles>
+  <roles>Role.brom_ЧтениеДанных</roles>
   <filterCriteria>FilterCriterion.СвязанныеОбъекты</filterCriteria>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ВзаимодействиеСEhtermine</commonModules>
@@ -67,6 +73,13 @@
   <commonModules>CommonModule.ВзаимодействиеСNiceHash</commonModules>
   <commonModules>CommonModule.КриптоФункции</commonModules>
   <commonModules>CommonModule.ВзаимодействиеСPolygon</commonModules>
+  <commonModules>CommonModule.brom_API</commonModules>
+  <commonModules>CommonModule.brom_API_ПИ</commonModules>
+  <commonModules>CommonModule.brom_Метаданные_ПИ</commonModules>
+  <commonModules>CommonModule.brom_Утилиты</commonModules>
+  <commonModules>CommonModule.brom_Настройки</commonModules>
+  <xDTOPackages>XDTOPackage.brom_API</xDTOPackages>
+  <webServices>WebService.brom_api</webServices>
   <scheduledJobs>ScheduledJob.ЗагрузкаДанныхСEthermine</scheduledJobs>
   <constants>Constant.АдресAPIEthermine</constants>
   <constants>Constant.ОсновнойКошелек</constants>
@@ -107,6 +120,7 @@
   <dataProcessors>DataProcessor.ДеревоДокументов</dataProcessors>
   <dataProcessors>DataProcessor.ОбменСEthermine</dataProcessors>
   <dataProcessors>DataProcessor.ОбменСNiceHash</dataProcessors>
+  <dataProcessors>DataProcessor.brom_УстановкаРолейПользователей</dataProcessors>
   <informationRegisters>InformationRegister.КонтактныйТелефон</informationRegisters>
   <informationRegisters>InformationRegister.Телефоны_ЧС</informationRegisters>
   <informationRegisters>InformationRegister.КомлектующиеНоменклатуры</informationRegisters>

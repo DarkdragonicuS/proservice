@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e97bd7bd-23fb-4aaa-bd44-a8a2c3ba72bc">
+  <producedTypes>
+    <objectType typeId="110cb095-9c40-4113-a78f-7bb864d2557c" valueTypeId="8f2a024b-a737-4e98-b66c-325cdaa853ee"/>
+    <managerType typeId="ae4a08d9-32b8-4edb-960c-581c4939d85c" valueTypeId="bd989212-386c-4410-bb6e-6e5c4035cac7"/>
+  </producedTypes>
+  <name>brom_УстановкаРолейПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Бром) Установка ролей пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.brom_УстановкаРолейПользователей.Form.Форма</defaultForm>
+  <forms uuid="7405ae31-0d27-43f4-a13f-7262ab52a461">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

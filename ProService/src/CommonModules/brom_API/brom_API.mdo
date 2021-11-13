@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a549b9e-444c-436e-80be-c547a0dad76a">
+  <name>brom_API</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Бром) API</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

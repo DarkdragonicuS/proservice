@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6bf582a-4dc3-45db-9774-da84e1760651">
+  <name>brom_ВызовПроцедур</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Бром) Удаленный вызов процедур</value>
+  </synonym>
+</mdclass:Role>
