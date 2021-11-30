@@ -616,6 +616,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>СтатистикаПоВсемКошелькам</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>СтатистикаПоВсемКошелькамПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>СтатистикаПоВсемКошелькамРасширеннаяПодсказка</name>
           <id>146</id>
@@ -900,7 +904,7 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
+      <group>Vertical</group>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
