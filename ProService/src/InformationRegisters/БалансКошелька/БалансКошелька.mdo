@@ -29,7 +29,7 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>18</precision>
+        <precision>20</precision>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
