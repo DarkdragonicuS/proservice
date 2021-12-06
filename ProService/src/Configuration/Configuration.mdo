@@ -17,7 +17,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Nixiris Dartero</vendor>
-  <version>0.16.110b</version>
+  <version>0.16.120b</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
