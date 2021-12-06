@@ -52,6 +52,8 @@
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceFirst>true</enableTotalsSliceFirst>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
   <resources uuid="a5d23f4a-60dc-4df1-a483-23db323442f2">
     <name>Курс</name>
     <synonym>
