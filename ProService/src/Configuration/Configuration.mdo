@@ -121,6 +121,7 @@
   <dataProcessors>DataProcessor.ОбменСEthermine</dataProcessors>
   <dataProcessors>DataProcessor.ОбменСNiceHash</dataProcessors>
   <dataProcessors>DataProcessor.brom_УстановкаРолейПользователей</dataProcessors>
+  <dataProcessors>DataProcessor.ПервоначальноеЗаполнение</dataProcessors>
   <informationRegisters>InformationRegister.КонтактныйТелефон</informationRegisters>
   <informationRegisters>InformationRegister.Телефоны_ЧС</informationRegisters>
   <informationRegisters>InformationRegister.КомлектующиеНоменклатуры</informationRegisters>
